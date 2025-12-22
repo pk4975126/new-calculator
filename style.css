@@ -1,0 +1,93 @@
+/* style.css */
+body { margin:0; font-family:Arial, sans-serif; }
+.navbar { display:flex; justify-content:space-between; padding:1rem; background:#003366; color:white; }
+.nav-links { list-style:none; display:flex; gap:1rem; }
+.nav-links a { color:rgb(50, 8, 8); text-decoration:none; }
+.hero { background:url('campus.jpg') center/cover no-repeat; color:rgb(167, 69, 69); text-align:center; padding:5rem 1rem; }
+.btn { background:#cfa707; padding:0.5rem 1rem; text-decoration:none; color:black; border-radius:5px; }
+.departments .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:1rem; padding:1rem; }
+.card { background:#562f80; padding:2rem; text-align:center; border-radius:8px; }
+footer { background:#003366; color:rgb(114, 50, 50); text-align:center; padding:1rem; }
+
+/* Responsive */
+@media(max-width:768px){
+  .nav-links { flex-direction:column; display:none; }
+  /* Add hamburger menu logic later */
+}
+.new{
+    background-color: aqua;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+    margin: 5px;
+    border-color: black;
+    
+    
+    
+}
+p{background-color: aqua;
+    border: #1f1a04;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    margin:0px;
+    padding: 0px;
+    border-color: black;
+
+
+    }
+    .neww{
+      background-color: rgb(11, 0, 9);
+      color: bisque;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      justify-items: center;
+      border-radius: 10px;
+      margin: 90px;
+    }
+    .key{
+      background-color: rgb(117, 59, 59);
+      border-radius: 20px;
+
+      color: bisque;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      justify-items: center;
+      border-radius: 20px;
+      display: flex;
+      
+     
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .equal{
+      grid-column: span 2;
+      display: flex;
+    }
+    .Display{
+      grid-column:span 4;
+      background-color: aqua;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    .yellow{
+      background-color: #cfa707;
+      
+    }
+    .green{
+      background-color: darkgreen;
+    }
+    .key:hover{
+      background-color: rgb(173, 220, 20);
+       cursor: pointer;
+      transition: background-color 0.3s ease;
+
+    }
